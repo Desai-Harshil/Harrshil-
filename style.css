@@ -43,6 +43,7 @@ body {
     margin: 0px auto;
     /* background-color: #333; */
     position: relative;
+    /* position: absolute; */
 }
 .main .menu ul{
     display: flex;
@@ -108,7 +109,7 @@ body {
 
 .me .title-in h1 {
     color: #F0B27A;
-    font-size: 60px;
+    font-size: 50px;
 }
 
 .me .title-text {
@@ -126,11 +127,11 @@ body {
 }
 
 .me .paragraph {
-    padding-bottom: 25px;
+    padding: 25px 0;
 }
 
 .me .paragraph p {
-    width: 680px;
+    /* width: 680px; */
     font-size: 20px;
 
 }
@@ -220,7 +221,7 @@ body {
     scale: 105%;
 } */
 .me .me-img {
-    padding-top: 150px;
+    /* padding-top: 150px; */
 }
 
 .me .me-inner .me-img img {
@@ -248,11 +249,11 @@ body {
 }
 
 .about .self .self-in {
-    padding: 20px 0px;
+    /* padding: 20px 0px; */
 }
 
 .about .self .self-in p {
-    font-size: 26px;
+    /* font-size: 26px; */
     line-height: 26px;
 }
 
@@ -281,8 +282,8 @@ body {
 }
 
 .about .about-text {
-    width: 500px;
-    padding: 30px 0px;
+    /* width: 500px;
+    padding: 30px 0px; */
 }
 
 .about .about-text p {
@@ -748,12 +749,94 @@ footer {
 }
 
 @media(max-width:786px){
-    .menu{
-        
-      display: block;
+    .header {
+     width: 368px;
+    }
+    .title-in {
+        width: 368px;
+    }
+    .paragraph p{
+        width: 368px;
+    }
+    .me-in .title-text{
+        padding-top: 380px;
+    }
+    .me .me-inner{
+        padding-bottom: 100px;
+    }
+    .me-img{
+        position: absolute;
+        padding-bottom: 260px;
+        padding-right: 250px;
+    }
+    .hero-img{
+        width: 368px;
+    }
+    .self{
+        position: absolute;
+        padding-top: 600px;
+    }
+    .self .self-in{
+        /* padding-top: 350px; */
+        font-size: 20px;
 
     }
-    .main .show{
-        display: show;
+    .self .about-me{
+        padding-bottom: 530px;
+    }
+    .about{
+        width: 368px;
+    }
+    .about .about-text{
+        width: 368px;
+        padding-bottom: 450px;
+    }
+    #myeducation{
+        padding-bottom: 100px;
+    }
+    .ed-title{
+        width: 368px;
+        padding-top: 420px;
+    }
+   
+    .education{
+        width: 368px;
+    }
+    .education .all-about{
+        width: 368px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .education .all-about .all{
+
+    }
+    .skill{
+        width: 368px;
+    }
+    .skill-in{
+        display: flex;
+        flex-direction: column;
+    }
+    .my-contact{
+        width: 368px;
+    }
+    .contacts{
+        width: 368px;
+    }
+    .contact-bottom{
+        width: 368px;
+    }
+    .bottom-inner{
+        width: 368px;
+        display: flex;
+        flex-direction: column;
+    }
+    footer{
+        width: 368px;
+    }
+    .footer-text{
+        width: 368px;
+        font-size: 15px;
     }
 }
